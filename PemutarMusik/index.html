@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pemutar Musik</title>
+  </head>
+
+  <body>
+    <audio src="" id="audio"></audio>
+    <div class="title">- Music Player -</div>
+    <div class="desc">with HTML, CSS, Javascript</div>
+    <div class="music-player">
+      <h1 class="lagu">Lagu 1</h1>
+      <p class="artis">Artis</p>
+
+      <div class="disk"></div>
+
+      <div class="song-slider">
+        <input type="range" value="0" class="seek-bar" />
+        <span class="current-time">00:00</span>
+        <span class="durasi">00:00</span>
+      </div>
+
+      <div class="controls">
+        <button class="btn btn-back">
+          <img src="gambar/back.png" alt="" />
+        </button>
+        <button class="play-btn pause">
+          <span></span>
+          <span></span>
+        </button>
+        <button class="btn btn-next">
+          <img src="gambar/forw.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <!--  <img src="gambar/forw.png" alt=""> -->
+    <!-- <img src="gambar/back.png" alt=""> -->
+
+    <script src="script.js"></script>
+    <!-- <script src="data.js"></script> -->
+  </body>
+</html>
