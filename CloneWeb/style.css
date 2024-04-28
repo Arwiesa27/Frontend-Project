@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+body {
+  background-color: #115eec;
+}
+
+.container {
+  padding: 0 6%;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+header a i {
+  padding-right: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0;
+  width: 100%;
+}
+
+.navbar .brand img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.navbar .nav-link li {
+  list-style: none;
+}
+
+.navbar .nav-link li .btn-login {
+  border: 1px solid orange;
+  color: orange;
+  padding: 3px 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.45s;
+}
+
+.navbar .nav-link li .btn-login:hover {
+  background-color: orange;
+  transition: all 0.45s;
+  color: #115eec;
+}
+
+.navbar .nav-link li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#home {
+  padding: 6rem 0;
+  display: flex;
+  gap: 7rem;
+}
+
+#home .left {
+  width: 50%;
+}
+
+.left .title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 4rem;
+  word-spacing: 1rem;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.left .desc {
+  line-height: 1.5rem;
+  font-weight: 200;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.promote .text {
+  font-size: 20px;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+.time {
+  display: flex;
+  padding-bottom: 2rem;
+  width: 100%;
+  color: #fff;
+  gap: 2rem;
+}
+
+.time .satu .num {
+  font-size: 5.2rem;
+}
+
+.time .satu .name {
+  font-size: 25px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.button {
+  background-color: orange;
+  text-transform: uppercase;
+  padding: 10px 35px;
+  border: 1px solid orange;
+  transition: all 0.45s;
+}
+.button:hover {
+  transition: all 0.45s;
+  background-color: transparent;
+  color: orange;
+  border: 1px solid orange;
+}
+
+#home .right {
+  width: 50%;
+}
+
+.right img {
+  width: 100%;
+}
